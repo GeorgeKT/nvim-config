@@ -33,4 +33,5 @@ return require('packer').startup(function(use)
   config = function() require("nvim-autopairs").setup {} end
  }
  use 'ThePrimeagen/harpoon'
+ use 'tanvirtin/monokai.nvim'
 end)
