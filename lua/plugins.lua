@@ -37,4 +37,5 @@ return require('packer').startup(function(use)
  use 'nvim-tree/nvim-web-devicons'
  use 'lewis6991/gitsigns.nvim'
  use 'feline-nvim/feline.nvim'
+ use 'aznhe21/actions-preview.nvim'
 end)
