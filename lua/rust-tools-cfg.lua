@@ -9,8 +9,18 @@ end
 local rt = require("rust-tools")
 
 rt.setup({
+  tools = {
+    autosethints = true,
+    inlay_hints = {
+        auto = true,
+        show_parameter_hints = true,
+    },
+    hover_actions = {
+        auto_focus = true
+    }
+  },
   server = {
-    on_attach = function(_, bufnr)
+    on_attach = function(c, bufnr)
       -- Hover actions
       vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
       -- Code action groups

@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
     requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
  }
  use 'simrat39/rust-tools.nvim'
- 
+ use 'lvimuser/lsp-inlayhints.nvim' 
  -- Completion framework:
  use 'hrsh7th/nvim-cmp' 
 
