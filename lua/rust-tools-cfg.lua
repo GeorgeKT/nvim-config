@@ -1,3 +1,5 @@
+vim.cmd [[autocmd BufWritePre *.rs lua vim.lsp.buf.format()]]
+
 local ok, wf = pcall(require, "vim.lsp._watchfiles")
 if ok then
 	-- disable lsp watcher. Too slow on linux
