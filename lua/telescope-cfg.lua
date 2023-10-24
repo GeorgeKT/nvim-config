@@ -38,3 +38,4 @@ vim.api.nvim_set_keymap(
 
 vim.api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files no_ignore=true hidden=true<CR>', {})
 vim.api.nvim_set_keymap('n', '<leader>fg', ':Telescope live_grep<CR>', {})
+vim.api.nvim_set_keymap('n', '<leader>fu', ':Telescope lsp_references<CR>', {})
