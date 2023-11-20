@@ -25,7 +25,6 @@ return require('packer').startup(function(use)
  use 'hrsh7th/vim-vsnip'
 
  use 'nvim-treesitter/nvim-treesitter'
- use 'puremourning/vimspector'
  use 'voldikss/vim-floaterm'
  use 'p00f/clangd_extensions.nvim'
  use {
