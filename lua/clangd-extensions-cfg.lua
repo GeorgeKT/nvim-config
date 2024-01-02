@@ -90,3 +90,6 @@ require("clangd_extensions").setup {
         },
     },
 }
+
+require("lspconfig").clangd.setup({})
+
