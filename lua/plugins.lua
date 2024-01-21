@@ -26,7 +26,8 @@ return require('packer').startup(function(use)
 
  use 'nvim-treesitter/nvim-treesitter'
  use 'puremourning/vimspector'
- use 'voldikss/vim-floaterm'
+ -- use 'voldikss/vim-floaterm'
+ use {"akinsho/toggleterm.nvim", tag = '*'}
  use 'p00f/clangd_extensions.nvim'
  use {
   "windwp/nvim-autopairs",
